@@ -1,6 +1,7 @@
 -r ../requirements.txt
-notebook==6.0.3
+notebook==6.4.12
 jupyter_server_proxy
 pandas
 numpy
 jupyter-dash
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
