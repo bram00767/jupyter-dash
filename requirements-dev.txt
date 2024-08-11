@@ -1,3 +1,4 @@
 jupyterlab>=2.0
 notebook>=6.0
 jupyter_server_proxy
+aiohttp>=3.10.2 # not directly required, pinned by Snyk to avoid a vulnerability
